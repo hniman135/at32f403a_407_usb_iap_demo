@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\at32f403a_407_clock.o"
+".\objects\at32f403a_407_int.o"
+".\objects\hid_iap_user.o"
+".\objects\main.o"
+".\objects\at32f403a_407_board.o"
+".\objects\at32f403a_407_acc.o"
+".\objects\at32f403a_407_crc.o"
+".\objects\at32f403a_407_crm.o"
+".\objects\at32f403a_407_usart.o"
+".\objects\at32f403a_407_flash.o"
+".\objects\at32f403a_407_gpio.o"
+".\objects\at32f403a_407_misc.o"
+".\objects\at32f403a_407_usb.o"
+".\objects\system_at32f403a_407.o"
+".\objects\startup_at32f403a_407.o"
+".\objects\usbd_core.o"
+".\objects\usbd_int.o"
+".\objects\usbd_sdr.o"
+".\objects\hid_iap_class.o"
+".\objects\hid_iap_desc.o"
+--strict --scatter ".\objects\at32f403a_bootloader.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\listings\at32f403a_bootloader.map" -o .\objects\at32f403a_bootloader.axf

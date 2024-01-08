@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+  <PortType>1</PortType>
+  <COMPort>-1</COMPort>
+  <BoudRate>115200</BoudRate>
+  <CRC>false</CRC>
+  <AppAddress>08004000</AppAddress>
+  <AppDownloadFile>D:\ThucTapDoanhNghiep\AT32F403A_407_Firmware_Library_EN_V2.1.5\utilities\at32f403a_407_usart_iap_demo\source_code\app_led3_toggle\mdk_v5\listings\at32f403a_app_led3_toggle.bin</AppDownloadFile>
+</Configuration>
